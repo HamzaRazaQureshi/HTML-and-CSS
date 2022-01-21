@@ -1,0 +1,35 @@
+
+    
+#header {
+    padding: 60px;
+    text-align: center;
+    font-size: 30px;
+    font-style:oblique;
+    font-style: initial;
+    text-decoration-style: solid;
+    text-shadow: black;
+    text-overflow: clip;
+    animation: cubic-bezier(1, 0, 0, 1);
+
+
+    color:black
+    
+    
+}
+img{width: 285px;
+    height: 270px;
+    margin: 20px;
+
+      border: 1px solid #ccc ;
+      float:left
+}
+
+*{
+    background-image: url(BACK2.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+.gallery img:hover{
+    transform: scale(1.2);
+}
