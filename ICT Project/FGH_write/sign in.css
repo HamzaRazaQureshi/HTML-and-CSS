@@ -1,0 +1,318 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body
+{
+    background: rgb(230, 228, 228);
+    font-size: 16px;
+    color: rgb(114, 112, 112);
+    font-family: sans-serif;
+    font-weight: 300px;
+}
+#Header {
+    /* height: 10%; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 8vw;
+    grid-template-rows: 11vh;
+    justify-content: center;
+    background-color: black;
+    
+}
+#Header img{
+    height: 57.23px;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+#Header h4{
+   font-size: 3.5rem;
+   font-family: 'Alegreya Sans', sans-serif;
+   opacity: 96%;
+   font-weight: 600;
+   justify-self: start;
+   letter-spacing: 3px;
+   position: absolute;
+   top: 3.2px;
+   left: 6.5%;
+   color: white;
+}
+.container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.459),rgba(0, 0, 0, 0.301)),url(../FGH_home/books.jpg);
+    background-size: cover;
+    height: 90%;
+}
+
+.navbar ul{
+    display: grid;
+    grid-template-columns: 1.9fr 1.87fr 2.9fr 2.45fr 1.87fr 2.8fr;
+    margin-left: 150px;
+    justify-items: start;
+    list-style: none;
+    font-size: 16px;
+}
+
+.navbar li{
+    margin-top: 15px;
+    margin-right: 100px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    transition: .5s ease-out;
+    font-size: 16.2px;
+}
+.active{
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+/* .heading{
+    margin-top: 11rem;
+    justify-content: center;
+    display: grid;
+    grid-template-rows:repeat(3,min-content) ;
+    grid-gap: 1.75rem;
+    color: white;
+}
+.contact-title
+{
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1{
+    font-size: 64px;
+    line-height: 10px;
+}
+.contact-title h2{
+    font-size: 16px;
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(7, 7, 7);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-bottom: 16px;
+} */
+#login-box
+{
+    position: relative;
+    margin: 5% auto;
+    height: 400px;
+    width: 600px;
+    background: white;
+}
+
+.left-box
+{
+    position: absolute;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+}
+h1
+{
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+}
+input[type="text"],
+input[type="password"]
+{
+    display: block;
+    /* box-sizing: border-box; */
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    /* outline: none; */
+    /* border-bottom: 1px solid rgb(182, 181, 181); */
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    /* transition: 0.2s ease; */
+}
+input[type="submit"]
+{
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: rgb(245, 77, 65);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    /* transition: 0.2s ease; */
+    cursor: pointer;
+}
+input[type="submit"]:hover
+input[type="submit"]:focus
+{
+    background: rgb(247, 96, 41);
+    /* transition: 0.2s ease; */
+}
+.right-box
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    background-image: url("10.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.or
+{
+    position: absolute;
+    top: 180px;
+    left: 280px;
+    width: 40px;
+    height: 40px;
+    background: rgb(223, 221, 221);
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    line-height: 40px;
+    text-align: center;
+}
+.right-box .signinwith
+{
+    display: block;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    /* text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); */
+}
+button.social
+{
+    margin-bottom: 20px;
+    width: 220px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    /* transition: 0.2s ease; */
+    cursor: pointer;
+}
+.facebook
+{
+    background: #32508e;
+}
+.twitter
+{
+    background: #55acee;
+}
+.google
+{
+    background: #dd4b39;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,2rem);
+    background: black;
+    height: 30vh;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer ul{
+    list-style: none;
+}
+.foot-one{
+    grid-column: 1 /span 4;
+    grid-row: 1 /span 2;
+    display: flex;
+    margin-left: 60%;
+}
+
+.foot-one ul{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: lighter;
+    margin-left: 9rem;
+    margin-top: 23px;
+
+}
+
+.foot-one li{
+    letter-spacing: .2px;
+    margin-right: 35px;
+    transition: transform .5s, filter .5s ease-in-out;
+    filter: grayscale(100%);
+}
+
+.foot-one li:hover{
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+
+#instalink{
+    margin-right: 0px;
+}
+
+.foot-two{
+    border-top: 1px solid white;
+    grid-column: 1 /span 4;
+}
+.foot-two ul{
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: 5vh;
+}
+.logo{
+    margin-left: 1rem;
+    position: absolute;
+    margin-top: 1rem;
+}
+.facts{
+    color: white;
+    grid-column: 1;
+    padding-left: 6rem;
+    margin-top: 1.75rem;
+    font-size: 2.5rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+.copyright{
+    color: #fff;
+    margin-top: 92px;
+    margin-left: 55%;
+}
+.foot-two a{
+    font-size: 1.5rem;
+    color: white;
+
+}
+.foot-two img{
+    width: 70px;
+}

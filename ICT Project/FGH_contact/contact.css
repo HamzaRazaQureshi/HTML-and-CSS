@@ -1,0 +1,215 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    text-align: center;
+    background: url();
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-color:gray;
+}
+#Header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 8vw;
+    grid-template-rows: 11vh;
+    justify-content: center;
+    background-color: black;
+    
+}
+#Header img{
+    height: 57.23px;
+    padding: 0;
+    position: absolute;
+    left: 20px;
+    top: 7px;
+    right: 10px;
+}
+#Header h4{
+   font-size: 3.5rem;
+   font-family: 'Alegreya Sans', sans-serif;
+   opacity: 96%;
+   font-weight: 600;
+   justify-self: start;
+   letter-spacing: 3px;
+   position: absolute;
+   top: 3.2px;
+   left: 6.5%;
+   color: white;
+}
+
+/* hr{
+    opacity: 90%;
+    color: white;
+} */
+
+.container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.459),rgba(0, 0, 0, 0.301)),url(../FGH_home/books.jpg);
+    background-size: cover;
+    height: 90%;
+}
+
+.navbar ul{
+    display: grid;
+    grid-template-columns: 1.9fr 1.87fr 2.9fr 2.45fr 1.87fr 2.8fr;
+    margin-left: 150px;
+    justify-items: start;
+    list-style: none;
+    font-size: 16px;
+}
+
+.navbar li{
+    margin-top: 15px;
+    margin-right: 100px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    transition: .5s ease-out;
+    font-size: 16.2px;
+}
+.active{
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+.contact-title
+{
+    margin-top: 80px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+#greet1{
+    font-size: 64px;
+    line-height: 10px;
+}
+#greet2{
+    font-size: 16px;
+    margin-top: 40px;
+}
+form{
+    margin-top: 50px;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(250, 249, 249);
+    color: rgb(247, 243, 243);
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
+}
+form .submit{
+    background: #e91212;
+    border-color: transparent;
+    color: rgb(253, 252, 252);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+form .submit:hover{
+    background-color: #f13d06;
+    cursor: pointer;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,2rem);
+    background: black;
+    height: 30vh;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer ul{
+    list-style: none;
+}
+.foot-one{
+    grid-column: 1 /span 4;
+    grid-row: 1 /span 2;
+    display: flex;
+    margin-left: 60%;
+}
+
+.foot-one ul{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: lighter;
+    margin-left: 9rem;
+    margin-top: 23px;
+
+}
+
+.foot-one li{
+    letter-spacing: .2px;
+    margin-right: 35px;
+    transition: transform .5s, filter .5s ease-in-out;
+    filter: grayscale(100%);
+}
+
+.foot-one li:hover{
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+
+#instalink{
+    margin-right: 0px;
+}
+
+.foot-two{
+    border-top: 1px solid white;
+    grid-column: 1 /span 4;
+}
+.foot-two ul{
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: 5vh;
+}
+.logo{
+    margin-left: 1rem;
+    margin-right: 1px;
+    position: absolute;
+    margin-top: 1rem;
+}
+.facts{
+    color: white;
+    grid-column: 1;
+    padding-left: 2.5rem;
+    margin-top: 1.75rem;
+    font-size: 2.5rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+.copyright{
+    color: #fff;
+    margin-top: 92px;
+    margin-left: 55%;
+    /* font-family: 'Alegreya Sans', sans-serif; */
+}
+.foot-two a{
+    font-size: 1.5rem;
+    color: white;
+
+}
+.foot-two img{
+    width: 70px;
+}
